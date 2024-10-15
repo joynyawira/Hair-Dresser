@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA Compatible" content="IE-Edge">
+  <title>Hair Dresser Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/104b0d0c77.js" crossorigin="anonymous"></script>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+  <!-- Header -->
+  <section class="header">
+    <div class="logo">Hair Dresser</div>
+    <nav class="navbar">
+
+        <a href="#home">Home</a>
+        <a href="#about">about</a>
+        <a href="#services">services</a>
+        <a href="#style">style</a>
+        <a href="#pricing">pricing</a>
+        <a href="#blogs">blogs</a>
+        <a href="#book">book a visit</a>
+        <a href="#review">reviews</a>
+      
+    </nav>
+
+      <!-- Hamburger Icon -->
+      <div class="hamburger" onclick="toggleMenu()">
+        <i class='bx bx-menu'></i>  
+      </div>
+
+  </section>
+
+   <!-- Home Section -->
+   <section id="home" class="hero-section">
+    <div class="hero-content">
+      <span>Welcome</span>
+      <h3>we make hair beautiful<br> & unique</h3>
+      <a href="#book" class="cta-btn">Book Appointment</a>
+    </div>
+  </section>
+
+  <!--about us section-->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="heading">About Us</h2>
+
+      <div class="about-content">
+
+        <div class="about-image">
+          <img src="profiles/style3.jpeg" alt="about us">
+        </div>
+        <div class="about-text">
+
+         <h1 class="title"> we are a community of expert stylist</h1>
+         <p>We believe that every client deserves to feel their best.Our expert team of professional hairdressers and stylist are dedicated to providing personalized service ,tailored to your unique style and personality.
+          Whether you are looking for a fresh haircut ,color,or a complete makeover we are here to make you feel fabulous</p>
+          <p>Our salon is committed to staying at the forefont of the latest trends ,techniques and products in the hair industry.We pride ourselves on creating a welcoming and relaxing environment where we can unwind and enjoy a luxurious hair experience </p>
+          <p>Visit us and let us make your hair dream come true.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<section class="services" id="services">
+  <h2 class="heading">Premium Services</h2>
+
+    <div class="service-cards">
+      <div class="service-card">
+        <img src="profiles/boy2.jfif" alt="Haircut Service">
+        <div class="content">
+          <h3>Haircuts & Beard trimming</h3>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="profiles/style1.jpeg" alt="Hair Coloring Service">
+        <div class="content">
+        <h3>Hair Coloring & Styling</h3>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="profiles/hair3.jfif" alt="Hair Braiding Service">
+        <div class="content">
+        <h3>Hair Braiding & Dreadlocks</h3>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="profiles/wed2.jfif" alt="Wedding Service">
+        <div class="content">
+        <h3>Wedding Services</h3>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</section>
+<!--style section-->
+<section class="style" id="style">
+  <h1 class="heading">choose your style</h1>
+
+  <div class="box-container">
+
+    <div class="box">
+
+      <div class="image">
+        <img src="profiles/wed1.jfif" alt="style">
+      </div>
+      <div class="content">
+        <h3 class="title">wedding hairstyle</h3>
+        <p>From curls to sleek looks. Starting from $40.</p>
+      </div>
+    </div>
+    <div class="box">
+
+      <div class="image">
+        <img src="profiles/hair5.jfif" alt=" wedding style">
+      </div>
+      <div class="content">
+        <h3 class="title">party hairstyle</h3>
+        <p>From curls to sleek looks. Starting from $40.</p>
+      </div>
+    </div>
+    <div class="box">
+
+      <div class="image">
+        <img src="profiles/hair7.jfif" alt="business style">
+      </div>
+      <div class="content">
+        <h3 class="title">business hairstyle</h3>
+        <p>From curls to sleek looks. Starting from $40.</p>
+      </div>
+    </div>
+    <div class="box">
+
+      <div class="image">
+        <img src="profiles/hair 1.jpg" alt="style">
+      </div>
+      <div class="content">
+        <h3 class="title">dinner hairstyle</h3>
+        <p>From curls to sleek looks. Starting from $40.</p>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+<!--pricing section-->
+<section class="pricing" id="pricing">
+  <h1 class="heading">offer and pricing</h1>
+  <div class="box-container">
+
+    <div class="box">
+      <h3 class="title">basic</h3>
+      <div class="price">
+        <span class="currency">$</span>
+        <span class="amount">10</span>
+      </div>
+      <ul>
+        <li><i class="fas fa-check">simple haircut</i></li>
+        <li><i class="fas fa-check">hair plugs</i></li>
+        <li><i class="fas fa-check">styling</i></li>
+        <li><i class="fas fa-check">braiding</i></li>
+
+      </ul>
+      <a href="#book"><button>book a visit</button></a>
+    </div>
+    <div class="box">
+      <h3 class="title">standard</h3>
+      <div class="price">
+        <span class="currency">$</span>
+        <span class="amount">20</span>
+      </div>
+      <ul>
+        <li><i class="fas fa-check">simple haircut</i></li>
+        <li><i class="fas fa-check">hair plugs</i></li>
+        <li><i class="fas fa-check">styling</i></li>
+        <li><i class="fas fa-check">braiding</i></li>
+
+      </ul>
+      <a href="#book"><button>book a visit</button></a>
+    </div>
+    <div class="box">
+      <h3 class="title">premium</h3>
+      <div class="price">
+        <span class="currency">$</span>
+        <span class="amount">30</span>
+      </div>
+      <ul>
+        <li><i class="fas fa-check">simple haircut</i></li>
+        <li><i class="fas fa-check">hair plugs</i></li>
+        <li><i class="fas fa-check">styling</i></li>
+        <li><i class="fas fa-check">braiding</i></li>
+
+      </ul>
+      <a href="#book"><button>book a visit</button></a>
+    </div>
+
+  </div>
+</section>
+<!--blogs section-->
+<section class="blogs" id="blogs">
+  <h1 class="heading ">our blogs</h1>
+  <div class="box-container">
+
+    <div class="box">
+      <div class="image">
+        <img src="profiles/style2.jpeg" alt="blogs">
+      </div>
+      <div class="content">
+        <a href="#" class="title">styling hair services</a>
+        <span> by admin/31st july,2023</span>
+        <p>"Excellent service and attention to detail. My go-to salon from now on!"</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img src="profiles/style4.jpeg" alt="blogs">
+      </div>
+      <div class="content">
+        <a href="#" class="title">styling hair services</a>
+        <span> by admin/31st july,2023</span>
+        <p>"Excellent service and attention to detail. My go-to salon from now on!"</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img src="profiles/style1.jpeg" alt="blogs">
+      </div>
+      <div class="content">
+        <a href="#" class="title">styling hair services</a>
+        <span> by admin/31st july,2023</span>
+        <p>"Excellent service and attention to detail. My go-to salon from now on!"</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!--book a visit section-->
+<section class="book" id="book">
+  <h1 class="heading">book a visit</h1>
+
+  <div class="row">
+    
+    <form action="#">
+      <h3>book your first visit today</h3>
+
+      <div class="inputBox">
+        <input type="text" placeholder="Your name">
+      </div>
+
+      <div class="inputBox">
+        <input type="email" placeholder="Your email">
+      </div>
+
+      <div class="inputBox">
+        <input type="text" placeholder="Subject">
+      </div>
+
+      <div class="inputBox">
+        <input type="text" placeholder="Message">
+      </div>
+      
+      <input type="submit" value="Send a Message" class="btn">
+    </form>
+  </div>
+</section>
+
+<section class="review" id="review">
+  <h1 class="heading">Customer's reviews</h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <p>"The coloring was just perfect! I love how vibrant it looks."</p>
+      <img src="profiles/profile/face3.jfif" alt="profile">
+      <h3>- James K.</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+
+      </div>
+    </div>
+
+    <div class="box">
+      <p>"Excellent service and attention to detail. My go-to salon from now on!"</p>
+      <img src="profiles/profile/face4.jfif" alt="profile">
+      <h3>- Sarah M.</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+
+      </div>
+    </div>
+
+    <div class="box">
+      <p>"I got the best haircut of my life! The salon is so welcoming."</p>
+      <img src="profiles/profile/face5.jfif" alt="profile">
+      <h3>- Lucy W.</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+<!--footer-->
+<section class="footer">
+
+  <div class="box-container">
+
+    <div class="box">
+      <h3>find us here</h3>
+      <p></p>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+
+      </div>
+    </div>
+
+    <div class="box">
+      <h3>contact us</h3>
+      <p> +254 113 456 723</p>
+      <a href="#" class="link">info@hair.com</a>
+    </div>
+
+    <div class="box">
+      <h3>Visit Us</h3>
+      <p>123 Main Street, Nairobi, Kenya</p>
+    </div>
+
+  </div>
+
+  <div class="credit">created by <span>Joy Nyawira</span> | all rights reserved</div>
+</section>
+  <script src="script.js"></script>
+</body>
+</html>
